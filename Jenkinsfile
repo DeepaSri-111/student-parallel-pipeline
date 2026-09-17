@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-parallel-pipeline.git'
+                    url: 'https://github.com/DeepaSri-111/student-parallel-pipeline.git'
             }
         }
 
